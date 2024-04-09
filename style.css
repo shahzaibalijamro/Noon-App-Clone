@@ -38,15 +38,19 @@ body{
     max-width: 130px;
     position: relative;
     bottom: 2px;
+    cursor: pointer;
 }
 
 .log-in-img {
     width: 17px;
     margin-left: 8px;
     position: relative;
+    cursor: pointer;
     bottom: 2px;
 }
-
+.fa-caret-right{
+    cursor: pointer !important;
+}
 .all-categories {
     width: 12%;
 }
@@ -123,6 +127,10 @@ body{
 
 .banner-small-images{
     width: 7%;
+    transition: 0.3s ease-in-out;
+}
+.banner-small-images:hover{
+    transform: scale(1.06);
 }
 .new-banner-small-images{
     width: 13.2%;
@@ -228,6 +236,11 @@ body{
 
 .m-r-t-shop{
     width: 48%;
+    cursor: pointer;
+}
+
+.card-img-top{
+    cursor: pointer;
 }
 
 .mega-deals-inside-products-img-container{
@@ -322,8 +335,12 @@ body{
     border-radius: 50%;
     padding: 3%;
     box-sizing: content-box;
+    transition: 0.3s ease-in-out;
 }
-
+.cart-add:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
 .cart-add-3{
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px;
     width: 9%;
