@@ -372,8 +372,12 @@ body{
     border-radius: 50%;
     padding: 3%;
     box-sizing: content-box;
+    transition: 0.3s ease-in-out;
 }
-
+.cart-add-3:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
 .love-add{
     width: 12%;
     max-width: unset;
